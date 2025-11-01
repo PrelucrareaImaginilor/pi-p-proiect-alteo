@@ -3,8 +3,10 @@
 Predictia eruptiilor solare pe baza imaginilor AIA si HMI
 
 <details>
-<summary>Tabel documentatie lab 2</summary>
-| Nr. | Autori/An | Titlu proiectului | Aplicatie/domeniu | Tehnologii utilizate | Abordare | Rezultate| Limitari | Comentarii suplimentare |
-|-----|-----------|-------------------|-------------------|----------------------|----------|----------|----------|-------------------------|  
-|  1  | Julia Bringewald/2025 | Solar Flare Forecast: A Comparative Analysis of Machine Learning Algorithms for Predicting Solar Flare Classes | Solar Flares Prediction | gridsearchcv/standardscaler | colectarea si procesarea datelor-> antrenarea algoritmilor ->evaluare | D.p.d.v al performantei XGBoost este pe primul loc urmat de KNN si Random Forest | set de date relativ mic |  |
+<summary> <b>Tabel documentație laborator 2</b></summary>
+
+| Nr. | Autor/An | Titlu proiectului | Domeniu | Tehnologii | Abordare | Rezultate | Limitări | Comentarii |
+|-----|-----------|-------------------|----------|-------------|-----------|------------|------------|-------------|
+| 1 | **Julia Bringewald / 2025** | *Solar Flare Forecast: A Comparative Analysis of Machine Learning Algorithms for Predicting Solar Flare Classes* | Solar Flares Prediction | `GridSearchCV`, `StandardScaler` | Colectarea și procesarea datelor → antrenarea algoritmilor → evaluare | XGBoost are cea mai bună performanță, urmat de KNN și Random Forest | Set de date mic și dezechilibrat | — |
+
 </details>
