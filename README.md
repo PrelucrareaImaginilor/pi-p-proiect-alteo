@@ -8,5 +8,6 @@ Predictia eruptiilor solare pe baza imaginilor AIA si HMI
 | Nr. | Autor/An | Titlu proiectului | Domeniu | Tehnologii | Abordare | Rezultate | Limitări | Comentarii |
 |-----|-----------|-------------------|----------|-------------|-----------|------------|------------|-------------|
 | 1 | **Julia Bringewald / 2025** | *Solar Flare Forecast: A Comparative Analysis of Machine Learning Algorithms for Predicting Solar Flare Classes* | Solar Flares Prediction | `GridSearchCV`, `StandardScaler` | Colectarea și procesarea datelor → antrenarea algoritmilor → evaluare | XGBoost are cea mai bună performanță, urmat de KNN și Random Forest | Set de date mic | — |
-
+| 2 | **P. A. Vysakh/Prateek Mayank / 2023** | *Solar Flare Prediction and Feature Selection Using a
+Light-Gradient-Boosting Machine Algorithm* | Solar Flares Prediction | `SunPy`, `GridSearch`, `SMOTE` | Colectarea și procesarea datelor → antrenarea algoritmilor → evaluare | Acuratete foarte buna pentru imaginile fara eruptii(aprox 95%), insa acuratete moderata pentru cele cu eruptii(aprox. 55%) | Set de date mic pentru imaginile cu eruptii | — |
 </details>
