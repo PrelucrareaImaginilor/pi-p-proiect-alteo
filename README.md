@@ -13,22 +13,25 @@ Predictia eruptiilor solare pe baza imaginilor AIA si HMI
 | 4 | **Eric Jonas, Monica Bobra / 2018** | *Flare Prediction Using Photospheric and Coronal Image Data* | Solar Flares Prediction | `SunPy`, `PyWren` | Colectarea și procesarea datelor → antrenarea algoritmilor → evaluare  | Acuratete buna pentru imaginile C class si M class | O acuratete mai scazuta pentru clasa X | — |
 | 5 | **Yasser Abduallah, Jason T. L. Wang, Yang Nie, Chang Liu and Haimin Wang / 2021** | *DeepSun: machine-learning-as-a-service for solar flare prediction* | Solar Flares Prediction | `Python`, `scikit-learn` | Colectarea și procesarea datelor → antrenarea algoritmilor → evaluare  | Acuratete buna pentru imaginile C class si M class. Algoritmul Ensemble are cele mai bune rezultate | O acuratete mai scazuta pentru clasa X | — |
 
-
 ![Diagrama](diagrama.png)
-
 1.Input
 - Colectarea si organizarea datelor -> Colectarea imaginilor de tipul AIA si HMI
+  
 2.Preporcesare
 - Calibrarea imaginilor -> corectie, aplicare filtre
 - Normalizarea datelor -> normalizare si redimensionare
 - Filtrarea datelor -> eliminarea imaginol necorespunzatoare
+  
 3.Etapa intermediara
 - Antrenarea ML
 - Detectia regiunilor active -> localizarea zonelor cu camp magnetic intens
 - Extractie trasaturi ->analizarea elementelor si asemanarilor dintre imagini pentru clasificare
+  
 4.Postprocesare
 - Filtrarea si maparea rezultatealor -> impartirea imaginilor in clase de imagini
+  
 5. Output
 - Analiza rezultatelor -> Verificare si comparare a acuratetii
+  
 </details>
 
