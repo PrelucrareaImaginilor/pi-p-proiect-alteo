@@ -15,5 +15,20 @@ Predictia eruptiilor solare pe baza imaginilor AIA si HMI
 
 
 ![Diagrama](diagrama.png)
+
+1.Input
+- Colectarea si organizarea datelor -> Colectarea imaginilor de tipul AIA si HMI
+2.Preporcesare
+- Calibrarea imaginilor -> corectie, aplicare filtre
+- Normalizarea datelor -> normalizare si redimensionare
+- Filtrarea datelor -> eliminarea imaginol necorespunzatoare
+3.Etapa intermediara
+- Antrenarea ML
+- Detectia regiunilor active -> localizarea zonelor cu camp magnetic intens
+- Extractie trasaturi ->analizarea elementelor si asemanarilor dintre imagini pentru clasificare
+4.Postprocesare
+- Filtrarea si maparea rezultatealor -> impartirea imaginilor in clase de imagini
+5. Output
+- Analiza rezultatelor -> Verificare si comparare a acuratetii
 </details>
 
