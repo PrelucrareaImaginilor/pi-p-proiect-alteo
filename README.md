@@ -1,6 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BzgEFjMi)
 
-Predictia eruptiilor solare pe baza imaginilor AIA si HMI
+# Predictia eruptiilor solare pe baza imaginilor AIA si HMI
+Demo link : https://youtu.be/2E4WWWu42TQ
+## Varianta intermediara
 
 <details>
 <summary> <b>Tabel documentație laborator 2</b></summary>
@@ -14,23 +15,23 @@ Predictia eruptiilor solare pe baza imaginilor AIA si HMI
 | 5 | **Yasser Abduallah, Jason T. L. Wang, Yang Nie, Chang Liu and Haimin Wang / 2021** | *DeepSun: machine-learning-as-a-service for solar flare prediction* | Solar Flares Prediction | `Python`, `scikit-learn` | Colectarea și procesarea datelor → antrenarea algoritmilor → evaluare  | Acuratete buna pentru imaginile C class si M class. Algoritmul Ensemble are cele mai bune rezultate | O acuratete mai scazuta pentru clasa X | — |
 
 </details>
-1.Input
+## 1.Input
 - Colectarea si organizarea datelor -> Colectarea imaginilor de tipul AIA si HMI
   
-2.Preporcesare
+## 2.Preporcesare
 - Calibrarea imaginilor -> corectie, aplicare filtre
 - Normalizarea datelor -> normalizare si redimensionare
 - Filtrarea datelor -> eliminarea imaginol necorespunzatoare
   
-3.Etapa intermediara
+## 3.Etapa intermediara
 - Antrenarea ML
 - Detectia regiunilor active -> localizarea zonelor cu camp magnetic intens
 - Extractie trasaturi ->analizarea elementelor si asemanarilor dintre imagini pentru clasificare
   
-4.Postprocesare
+## 4.Postprocesare
 - Filtrarea si maparea rezultatealor -> impartirea imaginilor in clase de imagini
   
-5. Output
+## 5. Output
 - Analiza rezultatelor -> Verificare si comparare a acuratetii
   
 
